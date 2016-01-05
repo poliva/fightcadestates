@@ -2,7 +2,7 @@
 errors=0
 for f in `ls *.fs` ; do
 	name=`echo $f |cut -f1 -d "_"`
-	rom=`dd if=${f} skip=28 count=100 bs=1 2>/dev/null |strings -n2 |head -n1`
+	rom=`dd if=${f} skip=28 count=100 bs=1 2>/dev/null |gstrings -n2 |head -n1`
 	echo -n "$name : $rom : "
 	if [ "$name" != "$rom" ]; then
 		echo "ERROR"
