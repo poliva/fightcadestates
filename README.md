@@ -13,7 +13,7 @@ All FightCade Savestates try to share the following common config:
 ### Slot 1 options:
 * Language: English
 * Continue: With
-* Difficulty: Level 8
+* Difficulty: MEDIUM/DEFAULT
 * Show Credit Level: Both OFF
 * Blood: On/Red
 * Rest of the options are default.
